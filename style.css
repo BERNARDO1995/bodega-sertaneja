@@ -99,7 +99,7 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(2.75rem, 4vw, 2.95rem);
+    font-size: clamp(2rem, 4vw, 2.25rem);
     font-weight: 700;
     margin-bottom: 0.5rem;
     color: #3f2319;
@@ -112,7 +112,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
@@ -143,7 +143,8 @@ p {
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
+    transform: translateY(-4px);
+   background: #3f2319;
     box-shadow: 0 6px 20px rgba(230, 57, 70, 0.5);
 }
 
@@ -728,7 +729,7 @@ section {
 }
 
 .beneficio-card:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(199, 130, 46, 0.2);
     transform: translateY(-5px);
 }
 
@@ -773,7 +774,7 @@ section {
 
 
 .depoimento-card {
-    flex: 0 0 15em;
+    flex: 0 0 16em;
     border-radius: 15px;
     border: 1px solid #3f2319;
     flex-direction: column;
@@ -785,10 +786,6 @@ section {
 
 }
 
-.depoimento-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-hover);
-}
 
 .depoimento-header {
     display: flex;
@@ -1279,7 +1276,7 @@ section {
 
 
     h2 {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     .btn {
