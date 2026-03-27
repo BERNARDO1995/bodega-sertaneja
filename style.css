@@ -295,10 +295,10 @@ p {
 .hero-badge {
     display: inline-block;
     background: linear-gradient(135deg, var(--accent), #f68a1f);
-    color: #e0e0e0;
-    padding: 8px 16px;
+    color: #3f2319;
+    padding: 12px 20px;
     border-radius: 20px;
-    font-size: 0.875rem;
+    font-size:1.2rem;
     font-weight: 600;
     margin-bottom: 80px;
     animation: float 3s ease-in-out infinite;
@@ -807,6 +807,9 @@ section {
 
 /* Avatar com imagem real */
 .avatar-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -822,7 +825,7 @@ section {
 
 .depoimento-info h4 {
     color: #3f2319;
-    margin-bottom: 2px;
+    margin-top: 10px;
 }
 
 .depoimento-info span {
