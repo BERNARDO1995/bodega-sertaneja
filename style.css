@@ -99,20 +99,20 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(2rem, 4vw, 2.25rem);
+    font-size: clamp(1.8rem, 3vw, 2rem);
     font-weight: 700;
     margin-bottom: 0.5rem;
     color: #3f2319;
 }
 
 h3 {
-    font-size: clamp(1.9rem, 3vw, 2.5rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
 
 h4 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 
@@ -334,7 +334,7 @@ p {
 }
 
 .stat-label {
-    font-size: 1.2rem;
+    font-size: 1.01rem;
     color: var(--text-light);
 }
 
@@ -429,7 +429,7 @@ section {
 
 .section-header p {
     color: #3f2319c2;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin-bottom: 40px;
 }
 
@@ -467,7 +467,7 @@ section {
     font-family: "Permanent Marker", cursive;
     color: #3f2319;
     font-weight: 500;
-    font-size: 1.45rem;
+    font-size: 1.2rem;
     line-height: 1.5;
 }
 
@@ -691,7 +691,7 @@ section {
     bottom: 10px;
     background: #2d1911;
     transform: translateX(-50%);
-    font-size: 21px;
+    font-size: 18px;
     border-radius: 5px;
     font-weight: 600;
     color: #ce6715;
@@ -734,7 +734,7 @@ section {
 }
 
 .beneficio-icon {
-    font-size: 2.8rem;
+    font-size: 2rem;
     margin-bottom: 15px;
 }
 
@@ -746,7 +746,7 @@ section {
 .beneficio-card p {
     color: #ce6715;
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 }
 
 .beneficio-card i {
@@ -836,7 +836,7 @@ section {
 .depoimento-card p {
     color: #3f2319d0;
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.35;
 }
 
@@ -868,7 +868,7 @@ section {
     border: none;
     padding: 20px 25px;
     text-align: left;
-    font-size: 1.225rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--bg);
     cursor: pointer;
@@ -907,7 +907,7 @@ section {
 }
 
 .faq-answer {
-    font-size: 1.22rem;
+    font-size: 1rem;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease, padding 0.3s ease;
@@ -950,7 +950,7 @@ section {
 .info-item i {
     color: #3f2319;
     margin-top: 8px;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     flex-shrink: 0;
 }
 
@@ -962,7 +962,7 @@ section {
     color: #3f2319a4;
     font-weight: 600;
     line-height: 1.1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0;
 }
 
@@ -1036,12 +1036,12 @@ section {
     background: var(--bg);
     color: #3f2319;
     padding: 0 20px;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 
 .footer-content p {
     color: var(--bg);
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 25px;
 }
 
@@ -1054,7 +1054,7 @@ section {
 
 .footer-links a {
     color: var(--bg);
-    font-size: 1.2rem;
+    font-size: 1rem;
     transition: var(--transition);
 }
 
@@ -1070,7 +1070,7 @@ section {
 
 .footer-social i {
     color: var(--bg);
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     transition: var(--transition);
 }
 
@@ -1086,7 +1086,7 @@ section {
 }
 
 .footer-bottom p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--bg);
     margin: 0;
 }
@@ -1176,7 +1176,7 @@ section {
 
     }
     .footer-logo span {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
     .hero-image-container {
@@ -1209,7 +1209,7 @@ section {
 
     .background {
 
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
 
     .nav-menu.active {
@@ -1279,12 +1279,12 @@ section {
 
 
     h2 {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .btn {
         padding: 12px 20px;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .hero-buttons {
