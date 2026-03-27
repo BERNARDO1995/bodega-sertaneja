@@ -95,24 +95,24 @@ h1 {
     padding: 0px 30px;
     color: #e0e0e0;
     background: #3f2319;
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
 h2 {
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-size: clamp(2.75rem, 4vw, 2.95rem);
     font-weight: 700;
     margin-bottom: 0.5rem;
     color: #3f2319;
 }
 
 h3 {
-    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    font-size: clamp(1.9rem, 3vw, 2.5rem);
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
 
 h4 {
-    font-size: 1.125rem;
+    font-size: 1.9rem;
     font-weight: 600;
 }
 
@@ -129,7 +129,7 @@ p {
     padding: 14px 28px;
     border-radius: var(--radius);
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
     transition: var(--transition);
     border: none;
@@ -200,6 +200,7 @@ p {
 
 .nav-menu a {
     font-weight: 500;
+    font-size: 1.1rem;
     color: #3f2319;
     transition: var(--transition);
     position: relative;
@@ -303,7 +304,7 @@ p {
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.7rem;
     color: var(--text-light);
     margin-bottom: 30px;
 }
@@ -332,7 +333,7 @@ p {
 }
 
 .stat-label {
-    font-size: 0.875rem;
+    font-size: 1.2rem;
     color: var(--text-light);
 }
 
@@ -407,9 +408,10 @@ p {
     transform: translateX(-50%);
     background: var(--accent);
     padding: 5px 20px;
+    font-size: 18PX;
     border-radius: 50px;
     font-weight: 600;
-    color: #e0e0e0;
+    color:var(--bg);
     box-shadow: var(--shadow);
     z-index: 2;
 }
@@ -426,7 +428,7 @@ section {
 
 .section-header p {
     color: #3f2319c2;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     margin-bottom: 40px;
 }
 
@@ -464,7 +466,7 @@ section {
     font-family: "Permanent Marker", cursive;
     color: #3f2319;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.5;
 }
 
@@ -682,13 +684,13 @@ section {
 }
 
 .destaque-badge {
-    width: 250px;
+    width: 290px;
     text-align: center;
     position: absolute;
     bottom: 10px;
     background: #2d1911;
     transform: translateX(-50%);
-    font-size: 18px;
+    font-size: 21px;
     border-radius: 5px;
     font-weight: 600;
     color: #ce6715;
@@ -731,7 +733,7 @@ section {
 }
 
 .beneficio-icon {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-bottom: 15px;
 }
 
@@ -743,11 +745,11 @@ section {
 .beneficio-card p {
     color: #ce6715;
     margin: 0;
-    font-size: 0.95rem;
+    font-size: 1.25rem;
 }
 
 .beneficio-card i {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 /* ========== DEPOIMENTOS ========== */
@@ -818,23 +820,24 @@ section {
 .avatar-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+   
 }
 
 .depoimento-info h4 {
-    color: var(--text);
+    color: #3f2319;
     margin-bottom: 2px;
 }
 
 .depoimento-info span {
     font-size: 0.85rem;
-    color: var(--text-light);
+    color: #3f2319cd;
 }
 
 .depoimento-card p {
+    color: #3f2319d0;
     font-style: italic;
-    font-size: 0.95rem;
-    line-height: 1.7;
+    font-size: 1.2rem;
+    line-height: 1.35;
 }
 
 .depoimento-stars {
@@ -865,7 +868,7 @@ section {
     border: none;
     padding: 20px 25px;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.225rem;
     font-weight: 600;
     color: var(--bg);
     cursor: pointer;
@@ -894,7 +897,7 @@ section {
 }
 
 .faq-icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
     transition: var(--transition);
 }
@@ -904,6 +907,7 @@ section {
 }
 
 .faq-answer {
+    font-size: 1.22rem;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease, padding 0.3s ease;
@@ -946,7 +950,7 @@ section {
 .info-item i {
     color: #3f2319;
     margin-top: 8px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     flex-shrink: 0;
 }
 
@@ -958,6 +962,7 @@ section {
     color: #3f2319a4;
     font-weight: 600;
     line-height: 1.1rem;
+    font-size: 1.2rem;
     margin: 0;
 }
 
@@ -1036,6 +1041,7 @@ section {
 
 .footer-content p {
     color: var(--bg);
+    font-size: 1.2rem;
     margin-bottom: 25px;
 }
 
@@ -1048,6 +1054,7 @@ section {
 
 .footer-links a {
     color: var(--bg);
+    font-size: 1.2rem;
     transition: var(--transition);
 }
 
@@ -1063,7 +1070,7 @@ section {
 
 .footer-social i {
     color: var(--bg);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     transition: var(--transition);
 }
 
@@ -1079,7 +1086,7 @@ section {
 }
 
 .footer-bottom p {
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     color: var(--bg);
     margin: 0;
 }
@@ -1202,7 +1209,7 @@ section {
 
     .background {
 
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .nav-menu.active {
@@ -1272,12 +1279,12 @@ section {
 
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 2.3rem;
     }
 
     .btn {
         padding: 12px 20px;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     .hero-buttons {
