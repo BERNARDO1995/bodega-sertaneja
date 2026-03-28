@@ -49,7 +49,7 @@ body {
 }
 
 .scroll {
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     color: #3f2319a9;
     justify-content: flex-end;
@@ -106,7 +106,7 @@ h2 {
 }
 
 h3 {
-    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
@@ -144,7 +144,7 @@ p {
 
 .btn-primary:hover {
     transform: translateY(-4px);
-   background: #3f2319;
+    background: #3f2319;
     box-shadow: 0 6px 20px rgba(230, 57, 70, 0.5);
 }
 
@@ -168,6 +168,38 @@ p {
 .btn-whatsapp:hover {
     background: #2d1911;
     transform: translateY(-2px);
+}
+
+
+.btn-fixed {
+    position: fixed;
+    bottom: 14px;
+    right: 13px;
+    z-index: 99;
+}
+
+
+.btn-flutuante i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    color: var(--bg);
+    font-size: 25px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+    padding: 6px;
+    box-shadow: 1px 1px 8px 2px #bf580a;
+    background: linear-gradient(135deg, #ce6816, #3f2319);
+}
+
+.btn-flutuante,
+i:hover {
+    transform: scale(1.1);
+    color: #ce6715;
+    background: #3f2319;
+
 }
 
 /* ========== HEADER ========== */
@@ -294,13 +326,14 @@ p {
 
 .hero-badge {
     display: inline-block;
-    background: linear-gradient(135deg, var(--accent), #f68a1f);
-    color: #3f2319;
+     background: linear-gradient(135deg, #3f2319, #ce6816);
+    color: var(--bg);
     padding: 12px 20px;
     border-radius: 20px;
-    font-size:1.2rem;
+    font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 80px;
+    box-shadow: 2px 2px 15px 3px #ce6815ec;
     animation: float 3s ease-in-out infinite;
 }
 
@@ -407,12 +440,12 @@ p {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background: var(--accent);
+    background: linear-gradient(135deg, #ce6816, #3f2319);
     padding: 5px 20px;
     font-size: 18PX;
     border-radius: 50px;
     font-weight: 600;
-    color:var(--bg);
+    color: var(--bg);
     box-shadow: var(--shadow);
     z-index: 2;
 }
@@ -550,7 +583,7 @@ section {
 
 /* ========== SERVIÇOS ========== */
 .servicos {
-   padding: 100px 0 5px 0;
+    padding: 100px 0 5px 0;
     background: #cd6816eb;
 }
 
@@ -779,6 +812,7 @@ section {
     border: 1px solid #3f2319;
     flex-direction: column;
     display: flex;
+    text-align: center;
     padding: 10px;
     animation: spin 20s infinite linear;
     align-items: center;
@@ -820,7 +854,7 @@ section {
 .avatar-image img {
     width: 100%;
     height: 100%;
-   
+
 }
 
 .depoimento-info h4 {
@@ -877,16 +911,19 @@ section {
     align-items: center;
     transition: var(--transition);
 }
-.faq-privacy{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     padding: 0;
-     font-weight: 500;
+
+.faq-privacy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-weight: 500;
 }
-.privacy{
-       box-shadow: none;
+
+.privacy {
+    box-shadow: none;
 }
+
 .faq-privacy:hover {
     opacity: 0.8;
     color: #ce6715;
@@ -983,12 +1020,13 @@ section {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+      box-shadow: 1px 2px 8px 1px rgba(236, 85, 20, 0.712);
     transition: var(--transition);
-    border: 2px dashed #3f2319;
+    border: 1px dashed #bf580a;
 }
 
 .mapa-placeholder:hover {
-    background: linear-gradient(135deg, #3f2319, #3f2319);
+    background: linear-gradient(135deg, #bf580a, #bf580a);
 }
 
 .mapa-placeholder iframe {
@@ -1029,7 +1067,7 @@ section {
 .footer-logo h1 {
     margin: 5px;
     color: var(--bg);
- line-height: 2.5rem;
+    line-height: 2.5rem;
 }
 
 .footer-logo span {
@@ -1175,9 +1213,10 @@ section {
         margin: 0;
 
     }
+
     .footer-logo span {
-    font-size: 1.2rem;
-}
+        font-size: 1.2rem;
+    }
 
     .hero-image-container {
         width: 100%;
@@ -1216,7 +1255,8 @@ section {
         transform: translateY(0);
         opacity: 1;
     }
-    .nav-toggle span{
+
+    .nav-toggle span {
         background: #3f2319;
     }
 
