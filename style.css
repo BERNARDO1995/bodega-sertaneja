@@ -336,6 +336,9 @@ i:hover {
     box-shadow: 2px 2px 15px 3px #ce6815ec;
     animation: float 3s ease-in-out infinite;
 }
+.hero-badge i{
+    font-size: 15px;
+}
 
 .hero-subtitle {
     font-size: 1.7rem;
