@@ -326,7 +326,7 @@ i:hover {
 
 .hero-badge {
     display: inline-block;
-     background: linear-gradient(135deg, #3f2319, #ce6816);
+    background: linear-gradient(135deg, #3f2319, #ce6816);
     color: var(--bg);
     padding: 12px 20px;
     border-radius: 20px;
@@ -336,7 +336,8 @@ i:hover {
     box-shadow: 2px 2px 15px 3px #ce6815ec;
     animation: float 3s ease-in-out infinite;
 }
-.hero-badge i{
+
+.hero-badge i {
     font-size: 15px;
 }
 
@@ -455,7 +456,7 @@ i:hover {
 
 /* ========== SEÇÕES GERAIS ========== */
 section {
-    padding: 100px 0;
+    padding: 40px 0;
 }
 
 .section-header {
@@ -551,11 +552,6 @@ section {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 200px);
     gap: 15px;
-}
-
-.galeria-item video {
-    width: 100%;
-
 }
 
 /* Primeiro item ocupa 2 colunas e 2 linhas */
@@ -882,6 +878,44 @@ section {
     letter-spacing: 2px;
 }
 
+/*=====sessão eventos======== */
+.eventos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-eventos {
+    margin-bottom: 60px;
+
+}
+.header-eventos p{
+    color: #3f2319c2;
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 2;
+    right: 90px;
+}
+
+.header-eventos h2 {
+    position: relative;
+    z-index: 2;
+    right: 90px;
+}
+
+.section-eventos {
+    width: 100%;
+    display: flex;
+    gap: 60px;
+}
+
+.section-eventos video {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px 4px rgba(236, 85, 20, 0.712);
+}
+
+
 /* ========== FAQ ========== */
 .faq {
     background: var(--bg);
@@ -1023,7 +1057,7 @@ section {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-      box-shadow: 1px 2px 8px 1px rgba(236, 85, 20, 0.712);
+    box-shadow: 1px 2px 8px 1px rgba(236, 85, 20, 0.712);
     transition: var(--transition);
     border: 1px dashed #bf580a;
 }
@@ -1162,6 +1196,10 @@ section {
 
     }
 
+    .section-eventos {
+        flex-direction: column;
+    }
+
     .galeria-grid {
         flex-direction: column;
     }
@@ -1170,6 +1208,9 @@ section {
         gap: 30px;
     }
 
+    .midea-none {
+        display: none;
+    }
 
     .hero-buttons {
         justify-content: center;
@@ -1205,6 +1246,21 @@ section {
     h1 {
         margin-top: 20px;
         font-size: 3.55rem;
+    }
+
+    .section-eventos {
+        flex-direction: column;
+    }
+
+    .header-eventos h2 {
+        right: 0;
+    }
+    .header-eventos p{
+        right: 0;
+    }
+
+    .eventos {
+        max-height: none;
     }
 
     .sobre-image img {
@@ -1289,7 +1345,7 @@ section {
     }
 
     section {
-        padding: 60px 0;
+        padding: 30px 0;
     }
 
     .servico-card {

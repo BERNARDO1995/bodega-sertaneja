@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Define quais elementos devem ser animados
     // EDITÁVEL: Adicione ou remova seletores conforme necessário
     const animateElements = document.querySelectorAll(
-        '.servicos-grid, .destaques-grid, .section-header, .btn-fixed, .galeria-grid, .sobre-content, .depoimentos-grid, .beneficio-card, .faq-item, .feature'
+        '.servicos-grid, .eventos, .destaques-grid, .section-header, .btn-fixed, .galeria-grid, .sobre-content, .depoimentos-grid, .beneficio-card, .faq-item, .feature'
     );
 
     // Configura cada elemento para ser animado
