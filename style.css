@@ -466,7 +466,8 @@ section {
 
 .section-header p {
     color: #3f2319c2;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
+    line-height: 1.35rem;
     margin-bottom: 40px;
 }
 
@@ -869,8 +870,8 @@ section {
 .depoimento-card p {
     color: #3f2319d0;
     font-style: italic;
-    font-size: 1rem;
-    line-height: 1.35;
+    font-size: 1.2rem;
+    line-height: 1.25;
 }
 
 .depoimento-stars {
@@ -891,7 +892,8 @@ section {
 }
 .header-eventos p{
     color: #3f2319c2;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
+    line-height: 1.35rem;
     position: relative;
     z-index: 2;
     right: 90px;
